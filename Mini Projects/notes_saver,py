@@ -1,0 +1,17 @@
+# Mini Project 4: Notes Saver App
+
+# Ask user for note
+note = input("Enter a note to save: ")
+
+# Open file 'notes.txt' in append mode and write note
+with open("notes.txt", "a") as file:
+    file.write(note + "\n")
+
+print("\nNote saved successfully!")
+
+# Now read all notes and display
+print("\nYour saved notes:")
+with open("notes.txt", "r") as file:
+    notes = file.readlines()
+    for line in notes:
+        print("- " + line.strip())

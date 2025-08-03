@@ -1,27 +1,105 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>NurEdge Technologies — API Verification Hub</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin:0; background:#f4f4f4; color:#333; }
-    header { background:#0d1b2a; padding:40px; color:#fff; text-align:center; }
-    header h1 { margin:0; font-size:2.4em; }
-    section { padding:40px 20px; text-align:center; }
-    a.button { margin:12px; padding:14px 24px; background:#007bff; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold; }
-    a.button:hover { background:#0056b3; }
-    footer { background:#0d1b2a; padding:20px; color:#aaa; font-size:0.9em; text-align:center; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NurEdge Technologies — Corporate Verification Hub</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('coach-siti-bg.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 0 0 15px rgba(0, 191, 255, 0.8);
+  }
+
+  p.subtitle {
+    font-size: 1.2em;
+    margin: 10px 0 30px;
+    color: #ddd;
+    text-shadow: 0 0 10px rgba(0,191,255,0.7);
+  }
+
+  /* Neon Logo Glow */
+  .logo {
+    width: 160px;
+    height: auto;
+    margin: 20px auto;
+    filter: drop-shadow(0 0 8px #00bfff)
+            drop-shadow(0 0 15px #00bfff)
+            drop-shadow(0 0 25px #00bfff);
+    animation: glowPulse 2.5s infinite ease-in-out;
+  }
+
+  @keyframes glowPulse {
+    0% { filter: drop-shadow(0 0 5px #00bfff)
+                  drop-shadow(0 0 10px #00bfff)
+                  drop-shadow(0 0 15px #00bfff); }
+    50% { filter: drop-shadow(0 0 12px #00ffff)
+                  drop-shadow(0 0 25px #00ffff)
+                  drop-shadow(0 0 40px #00ffff); }
+    100% { filter: drop-shadow(0 0 5px #00bfff)
+                    drop-shadow(0 0 10px #00bfff)
+                    drop-shadow(0 0 15px #00bfff); }
+  }
+
+  .buttons {
+    margin-top: 20px;
+  }
+
+  .buttons a {
+    background: #007bff;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s;
+    box-shadow: 0 0 10px rgba(0,123,255,0.8);
+  }
+
+  .buttons a:hover {
+    background: #0056b3;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 0.9em;
+    color: #ccc;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  }
+</style>
 </head>
 <body>
-  <header>
-    <h1>NurEdge Technologies</h1>
-    <p>Corporate Verification Hub for TikTok Integration</p>
-  </header>
-  <section>
-    <a href="tos.html" class="button">📄 Terms of Service</a>
-    <a href="privacy.html" class="button">🔒 Privacy Policy</a>
-  </section>
-  <footer>&copy; 2025 NurEdge Technologies. All rights reserved.</footer>
+
+<h1>NurEdge Technologies</h1>
+<p class="subtitle">Corporate Verification Hub for TikTok Integration</p>
+
+<img src="logo.png" alt="NurEdge Logo" class="logo">
+
+<div class="buttons">
+  <a href="tos.html">📄 Terms of Service</a>
+  <a href="privacy.html">🔒 Privacy Policy</a>
+</div>
+
+<footer>
+  &copy; 2025 NurEdge Technologies. All rights reserved.
+</footer>
+
 </body>
 </html>

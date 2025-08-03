@@ -3,70 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaCore API | NurEdge</title>
+    <title>NovaCore API v3 - NurEdge</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="logo.png" alt="NovaCore Logo" style="height:40px;">
-            <h1>NovaCore API</h1>
-        </div>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#products">Products</a>
-            <a href="#docs">Documentation</a>
-            <a href="#api-demo">API Demo</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h2>AI-Powered TikTok API Integration</h2>
-        <p>NovaCore by NurEdge — The future of AI-driven media automation, scalable for billions.</p>
-        <a class="btn" href="#docs">Explore Documentation</a>
+<header>
+    <h1>NovaCore by NurEdge™</h1>
+    <h2>AI-Powered TikTok API Integration for Global Scale</h2>
+    <div class="cta-buttons">
+        <button id="loginBtn">Connect TikTok</button>
+        <button onclick="window.location.href='api-docs.html'">Explore API Docs</button>
+        <button onclick="window.location.href='#dashboard'">Live Dashboard</button>
+    </div>
+</header>
+<main>
+    <section id="infiniteNoon">
+        <h2>Infinite Noon Live Data Feed</h2>
+        <div id="noonData">Loading live entanglement data...</div>
     </section>
-
-    <section id="about">
-        <h2>About NovaCore</h2>
-        <p>NovaCore API is built for creators, developers, and enterprises to automate TikTok content, analytics, and engagement using AI-powered endpoints. Optimized for global scale, privacy, and performance.</p>
+    <section id="tiktokTrends">
+        <h2>Trending TikTok Hashtags</h2>
+        <ul id="trendList">
+            <li>Loading...</li>
+        </ul>
     </section>
-
     <section id="products">
-        <h2>Products</h2>
-        <div class="card-container">
-            <div class="card">
-                <h3>API Suite</h3>
-                <p>Access TikTok data, analytics, and posting automation with AI-enhanced speed.</p>
-            </div>
-            <div class="card">
-                <h3>Analytics Engine</h3>
-                <p>Real-time performance metrics and growth forecasting powered by NurEdge AI.</p>
-            </div>
-            <div class="card">
-                <h3>AI Content Manager</h3>
-                <p>Generate, schedule, and optimize content with deep learning automation.</p>
-            </div>
-        </div>
+        <h2>Enterprise API Products</h2>
+        <ul>
+            <li>Content Automation API</li>
+            <li>Trend Prediction API</li>
+            <li>Video Monetization API</li>
+        </ul>
     </section>
-
-    <section id="docs">
-        <h2>Documentation</h2>
-        <p>Comprehensive API docs to get started with NovaCore TikTok integration.</p>
-        <a class="btn" href="docs.html">View Docs</a>
-    </section>
-
-    <section id="api-demo">
-        <h2>Live API Demo</h2>
-        <p>Klik untuk test NovaCore TikTok API (Mock Data)</p>
-        <button onclick="testAPI()">Run API Call</button>
-        <pre id="api-output" style="background:#000; color:#0ff; padding:10px; border-radius:8px;"></pre>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 NovaCore | NurEdge OS. All Rights Reserved.</p>
-    </footer>
-
-    <script src="script.js"></script>
+</main>
+<footer>
+    <p>© 2025 NovaCore by NurEdge™. Billion-Scale API Economy.</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>

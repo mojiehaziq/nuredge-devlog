@@ -1,37 +1,42 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background: linear-gradient(to right, #000000, #001f3f);
-    color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #000011, #002244);
+  color: white;
 }
-header {
-    text-align: center;
-    padding: 30px;
-    background: rgba(0,0,0,0.8);
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.8);
 }
-header h1 {
-    color: cyan;
+.hero h1 {
+  font-size: 2.5rem;
+  color: cyan;
 }
-.cta-buttons button {
-    background-color: cyan;
-    color: black;
-    padding: 10px 20px;
-    margin: 10px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.back-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: cyan;
+  text-decoration: none;
 }
 section {
-    padding: 20px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  margin: 20px;
+  border-radius: 10px;
 }
-#infiniteNoon, #tiktokTrends {
-    background: rgba(0,0,0,0.6);
-    margin: 10px;
-    border-radius: 10px;
-    padding: 15px;
+h2 {
+  color: cyan;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  margin: 5px 0;
 }
 footer {
-    text-align: center;
-    padding: 15px;
-    background: rgba(0,0,0,0.8);
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
 }

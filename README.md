@@ -1,22 +1,16 @@
-# NurEdge DevLog 🚀
+# NurEdge Devlog — API Verification Hub
 
-Welcome to the official development log of **NurEdge** —  
-a journey to build an AI-native, self-integrated operating system that aligns with the vision:
+This repository hosts the official Terms of Service and Privacy Policy for the **NurEdge Cinematic Hub** application.
 
-*"NurEdge at the top of the world — an AI-OS fully integrated and self-managed."*
+## Purpose
+This repository acts as:
+- A verification hub for TikTok API applications
+- A development log for NurEdge API integration (TikTok, CyberPeace, Infinite Noon)
+- A static deployment for GitHub Pages serving public documentation
 
----
+## Public URLs
+- **Terms of Service**: [View ToS](https://mojiehaziq.github.io/nuredge-devlog/tos.html)
+- **Privacy Policy**: [View Privacy Policy](https://mojiehaziq.github.io/nuredge-devlog/privacy.html)
 
-## 📖 About this repository
-This repository serves as a learning portfolio while developing Python, AI, automation, and foundational skills for the NurEdge project.
-
----
-
-## 🔧 Current focus:
-- Python fundamentals
-- Mini projects for learning
-- Building a skill stack to prepare for future NurEdge AI-OS prototype
-
----
-
-**Founder:** mojehaziq
+## Contact
+For inquiries, please contact: **core@nuredge.app**

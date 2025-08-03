@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0a0a0a, #101820);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+header .logo h1 {
+    color: cyan;
+    display: inline-block;
+    margin-left: 10px;
+}
+header nav a {
+    color: cyan;
+    margin: 0 10px;
+    text-decoration: none;
+}
+header nav a:hover {
+    color: #00ffaa;
+}
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background: linear-gradient(180deg, rgba(0,255,255,0.1), transparent);
+}
+.hero h2 {
+    font-size: 2.5rem;
+    color: cyan;
+}
+.hero .btn {
+    background: cyan;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.hero .btn:hover {
+    background: #00ffaa;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 300px;
+}

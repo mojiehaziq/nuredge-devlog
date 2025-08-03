@@ -1,105 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>NurEdge Technologies — Corporate Verification Hub</title>
-<style>
-  body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: url('coach-siti-bg.png') no-repeat center center;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  h1 {
-    font-size: 2.5em;
-    margin: 0;
-    text-shadow: 0 0 15px rgba(0, 191, 255, 0.8);
-  }
-
-  p.subtitle {
-    font-size: 1.2em;
-    margin: 10px 0 30px;
-    color: #ddd;
-    text-shadow: 0 0 10px rgba(0,191,255,0.7);
-  }
-
-  /* Neon Logo Glow */
-  .logo {
-    width: 160px;
-    height: auto;
-    margin: 20px auto;
-    filter: drop-shadow(0 0 8px #00bfff)
-            drop-shadow(0 0 15px #00bfff)
-            drop-shadow(0 0 25px #00bfff);
-    animation: glowPulse 2.5s infinite ease-in-out;
-  }
-
-  @keyframes glowPulse {
-    0% { filter: drop-shadow(0 0 5px #00bfff)
-                  drop-shadow(0 0 10px #00bfff)
-                  drop-shadow(0 0 15px #00bfff); }
-    50% { filter: drop-shadow(0 0 12px #00ffff)
-                  drop-shadow(0 0 25px #00ffff)
-                  drop-shadow(0 0 40px #00ffff); }
-    100% { filter: drop-shadow(0 0 5px #00bfff)
-                    drop-shadow(0 0 10px #00bfff)
-                    drop-shadow(0 0 15px #00bfff); }
-  }
-
-  .buttons {
-    margin-top: 20px;
-  }
-
-  .buttons a {
-    background: #007bff;
-    color: white;
-    padding: 15px 25px;
-    margin: 10px;
-    border-radius: 6px;
-    font-weight: bold;
-    text-decoration: none;
-    display: inline-block;
-    transition: background 0.3s;
-    box-shadow: 0 0 10px rgba(0,123,255,0.8);
-  }
-
-  .buttons a:hover {
-    background: #0056b3;
-  }
-
-  footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    font-size: 0.9em;
-    color: #ccc;
-    text-shadow: 0 0 5px rgba(0,0,0,0.5);
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCore API | NurEdge</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="NovaCore Logo" style="height:40px;">
+            <h1>NovaCore API</h1>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#docs">Documentation</a>
+            <a href="#api-demo">API Demo</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-<h1>NurEdge Technologies</h1>
-<p class="subtitle">Corporate Verification Hub for TikTok Integration</p>
+    <section class="hero">
+        <h2>AI-Powered TikTok API Integration</h2>
+        <p>NovaCore by NurEdge — The future of AI-driven media automation, scalable for billions.</p>
+        <a class="btn" href="#docs">Explore Documentation</a>
+    </section>
 
-<img src="logo.png" alt="NurEdge Logo" class="logo">
+    <section id="about">
+        <h2>About NovaCore</h2>
+        <p>NovaCore API is built for creators, developers, and enterprises to automate TikTok content, analytics, and engagement using AI-powered endpoints. Optimized for global scale, privacy, and performance.</p>
+    </section>
 
-<div class="buttons">
-  <a href="tos.html">📄 Terms of Service</a>
-  <a href="privacy.html">🔒 Privacy Policy</a>
-</div>
+    <section id="products">
+        <h2>Products</h2>
+        <div class="card-container">
+            <div class="card">
+                <h3>API Suite</h3>
+                <p>Access TikTok data, analytics, and posting automation with AI-enhanced speed.</p>
+            </div>
+            <div class="card">
+                <h3>Analytics Engine</h3>
+                <p>Real-time performance metrics and growth forecasting powered by NurEdge AI.</p>
+            </div>
+            <div class="card">
+                <h3>AI Content Manager</h3>
+                <p>Generate, schedule, and optimize content with deep learning automation.</p>
+            </div>
+        </div>
+    </section>
 
-<footer>
-  &copy; 2025 NurEdge Technologies. All rights reserved.
-</footer>
+    <section id="docs">
+        <h2>Documentation</h2>
+        <p>Comprehensive API docs to get started with NovaCore TikTok integration.</p>
+        <a class="btn" href="docs.html">View Docs</a>
+    </section>
 
+    <section id="api-demo">
+        <h2>Live API Demo</h2>
+        <p>Klik untuk test NovaCore TikTok API (Mock Data)</p>
+        <button onclick="testAPI()">Run API Call</button>
+        <pre id="api-output" style="background:#000; color:#0ff; padding:10px; border-radius:8px;"></pre>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 NovaCore | NurEdge OS. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
